@@ -10,9 +10,9 @@
  */
 function calculate () {
   // input length and width
-    let width = parseInt(document.getElementById('width-of-triangle').value);
-    let height = parseInt(document.getElementById('height-of-triangle').value);
-    let length = parseInt(document.getElementById('length-of-triangle').value);
+    let width = parseFloat(document.getElementById('width-of-triangle').value);
+    let height = parseFloat(document.getElementById('height-of-triangle').value);
+    let length = parseFloat(document.getElementById('length-of-triangle').value);
   // calculate area
   // process
   // let area = (sideA * sideB) / H2;
